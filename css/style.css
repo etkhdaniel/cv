@@ -20,7 +20,8 @@ nav a{
 
 nav a:hover{
     text-decoration: underline;
-    background-color: #D4E2D4;
+    background-color: #D7E3FC;
+    color: black;
 }
 
 footer{
@@ -37,8 +38,8 @@ footer a{
 
 footer a:hover{
     text-decoration: underline;
-    background-color: #D4E2D4;
-
+    background-color: #D7E3FC;
+    color: black;
 }
 
 .top{
@@ -95,6 +96,7 @@ hr:before {
     border: solid;
     width: 200px;
     height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .card1 {
@@ -206,20 +208,20 @@ h4 {
 }
 
 p {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 li {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 dt {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding-left: 10px;
 }
 
 dd{
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding-left: 10px;
 }
 
@@ -232,7 +234,7 @@ dl a {
     padding-right: 10px;
 }
 .card2 a {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .cardc {
@@ -250,7 +252,7 @@ dl a {
 }
 
 label {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Lato', sans-serif;
     display: block;
 }
 
@@ -293,6 +295,7 @@ form {
     margin-bottom: 30px;
     border-style: inset;
     border-color: #856ce2;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 button {
