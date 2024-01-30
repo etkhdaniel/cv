@@ -347,7 +347,6 @@ button {
     margin-bottom: 20px; /* Spacing between title and content */
 }
 
-<<<<<<< HEAD
 .project-container {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns for projects */
