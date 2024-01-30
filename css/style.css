@@ -384,30 +384,4 @@ button {
     font-size: smaller;
 }
   
-=======
-/* You might also want to add some transition for a smooth effect */
-.project1 h3,
-.project1
 
-/* Hide the h3 and span by default */
-.project2 h3,
-.project2 span {
-    display: none;
-    /* Add any additional styling you need for when they appear */
-}
-
-/* Show the h3 and span when hovering over the .work element */
-.work:hover .project2 h3,
-.work:hover .project2 span {
-    display: block;
-    /* Add any additional styling for the hover state */
-}
-
-/* You might also want to add some transition for a smooth effect */
-.project2 h3,
-.project2
-
-#fh5co-work {
-    background-color: #00008B; /* This is a shade of dark blue. You can adjust the color code to your preference */
-}
->>>>>>> 63187555c70b2d9f6d30c3cbac1b61ea337a81ab
