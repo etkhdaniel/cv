@@ -333,3 +333,25 @@ button {
     transform: scale(1.2);
     background-color: rgb(210, 227, 240); 
 }
+
+/* Hide the h3 and span by default */
+.project1 h3,
+.project1 span {
+    display: none;
+    /* Add any additional styling you need for when they appear */
+}
+
+/* Show the h3 and span when hovering over the .work element */
+.work:hover .project1 h3,
+.work:hover .project1 span {
+    display: block;
+    /* Add any additional styling for the hover state */
+}
+
+/* You might also want to add some transition for a smooth effect */
+.project1 h3,
+.project1
+
+#fh5co-work {
+    background-color: #00008B; /* This is a shade of dark blue. You can adjust the color code to your preference */
+}
