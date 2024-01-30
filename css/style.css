@@ -334,24 +334,52 @@ button {
     background-color: rgb(210, 227, 240); 
 }
 
-/* Hide the h3 and span by default */
-.project1 h3,
-.project1 span {
-    display: none;
-    /* Add any additional styling you need for when they appear */
+.projects {
+    background-color: #bacef8; /* Matching the middle section background */
+    padding: 20px;
+    text-align: center;
 }
 
-/* Show the h3 and span when hovering over the .work element */
-.work:hover .project1 h3,
-.work:hover .project1 span {
-    display: block;
-    /* Add any additional styling for the hover state */
+.projects h2 {
+    font-family: 'Handjet', cursive, 'Lato', sans-serif;
+    font-size: xx-large;
+    color: royalblue;
+    margin-bottom: 20px; /* Spacing between title and content */
 }
 
-/* You might also want to add some transition for a smooth effect */
-.project1 h3,
-.project1
-
-#fh5co-work {
-    background-color: #00008B; /* This is a shade of dark blue. You can adjust the color code to your preference */
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for projects */
+    grid-gap: 20px;
 }
+
+.card {
+    background-color: #52B2BF; /* Matching the card style */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight hover effect */
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* To match the card's border-radius */
+}
+
+.card h3 {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff; /* Text color */
+    margin-top: 10px;
+}
+
+.card p {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff; /* Text color */
+    font-size: smaller;
+}
+  
